@@ -38,3 +38,4 @@
   * [Aurrekontua](hardware/presupuestoa.md)
   * [Planoak](hardware/planoa.md)
 
+* [Page](README.md)
