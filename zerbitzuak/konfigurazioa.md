@@ -1,0 +1,3 @@
+# Konfigurazioa
+
+Zerbitzuen konfigurazioaren xehetasunak.
