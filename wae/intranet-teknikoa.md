@@ -128,6 +128,10 @@ EXIT;
 
 ## Wae:
 
+Kodeatzeko visual studion egin dugu eta gero sftp eta ssh bitartez ubuntura igo dugu:
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
 -Repo: [https://github.com/punketa/intranet\_payo](https://github.com/punketa/intranet_payo)
 
 Hemen dago kode guztia, nire komentarioekin.
