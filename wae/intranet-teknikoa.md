@@ -133,3 +133,5 @@ EXIT;
 Hemen dago kode guztia, nire komentarioekin.
 
 ## Segurtasuna:
+
+Gero pfsense barruan arauen bitartez egin dugu bakarrik Payo.eus barruan dauden bezeroak soilik ikus dezaten.
