@@ -7,6 +7,7 @@
   * [Datu basea sortu](datubase/datu-basea-sortu.md)
 * [WAE](wae/README.md)
   * [Wordpress instalatu](wae/wordpress-instalatu.md)
+  * [Intranet](wae/intranet.md)
   * [Erabiltzaileak](wae/erabiltzaileak.md)
   * [Wordpress](wae/wordpress.md)
   * [GIT](wae/git.md)
@@ -37,5 +38,4 @@
   * [Software](hardware/software.md)
   * [Aurrekontua](hardware/presupuestoa.md)
   * [Planoak](hardware/planoa.md)
-
 * [Page](README.md)
