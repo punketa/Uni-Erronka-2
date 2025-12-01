@@ -1,0 +1,2 @@
+# Beste makina batetik sartzea
+
