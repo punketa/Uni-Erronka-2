@@ -8,6 +8,7 @@
 * [WAE](wae/README.md)
   * [Wordpress instalatu](wae/wordpress-instalatu.md)
   * [Intranet](wae/intranet.md)
+  * [Intranet Gida](wae/intranet-gida.md)
   * [Intranet teknikoa](wae/intranet-teknikoa.md)
   * [Erabiltzaileak](wae/erabiltzaileak.md)
   * [Wordpress](wae/wordpress.md)
