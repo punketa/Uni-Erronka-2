@@ -20,8 +20,6 @@ FLUSH PRIVILEGES;
 
 EXIT;
 
-
-
 * **Apache2 eta PHP instalatu:**
 
 sudo apt install apache2 php php-mysql php-gd php-mbstring php-xml php-curl libapache2-mod-php -y
@@ -32,14 +30,7 @@ sudo systemctl start apache2
 
 sudo systemctl status apache2
 
-<figure><img src="../.gitbook/assets/unknown (11).png" alt=""><figcaption></figcaption></figure>
-
-Bezeroan: [http://192.168.10.12](http://192.168.10.12)\
-
-
-![](<../.gitbook/assets/unknown (1) (1) (1) (1) (1).png>)
-
-
+Bezeroan: [http://192.168.10.12](http://192.168.10.12)\\
 
 * **Wordpress instalatu:**
 
@@ -55,33 +46,18 @@ sudo chmod -R 755 /var/www/html/wordpress
 
 sudo a2enmod rewrite
 
-sudo systemctl restart apache2\
+sudo systemctl restart apache2\\
 
-
-Bezeroan: [http://192.168.10.12/wordpress](http://192.168.10.12/wordpress) \
-
-
-<figure><img src="../.gitbook/assets/unknown (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
+Bezeroan: [http://192.168.10.12/wordpress](http://192.168.10.12/wordpress) \\
 
 * **Wordpress konfiguratu:**
-
-<figure><img src="../.gitbook/assets/unknown (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Wordpress localean
 
 * **DB sortu MariaDBn.**
 * **XAMPP instalatu eta Apache marchan jarri:**
-
-<figure><img src="../.gitbook/assets/unknown (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 * **Wordpress deskargatu eta C:\xampp\htdocs barruan sartu.**
 
 [https://localhost/wordpres](https://localhost/wordpres)
 
-<figure><img src="../.gitbook/assets/unknown (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-\
+\\
