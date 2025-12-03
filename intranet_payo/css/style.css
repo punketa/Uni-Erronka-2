@@ -1,0 +1,96 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f3f4f7;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tarjeta centrada */
+.card {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Títulos */
+.title {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Inputs */
+.input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #6a9cff;
+    box-shadow: 0 0 5px rgba(106, 156, 255, 0.4);
+}
+
+/* Botones */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #6aa6ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0a1f47;
+}
+
+/* Botones de enlaces */
+.link-btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-btn-red {
+    display: block;
+    text-align: center;
+    background: #ff4d4d;
+    margin-top: 10px;
+}
+
+/* Textos pequeños */
+.text-small {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.text-small a {
+    color: #4d8dff;
+    text-decoration: none;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+}
