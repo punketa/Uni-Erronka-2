@@ -1,1 +1,128 @@
+#include <WiFi.h>
+#include <TFT_eSPI.h>
+#include <SPI.h>
+#include <DHT.h>      
+#include <Adafruit_Sensor.h>
+#include <HTTPClient.h> 
 
+#define DHTPIN 22     
+#define DHTTYPE DHT11 
+#define PIR_PIN 27      
+
+#define MIC_ANALOG 35
+#define MIC_DIGITAL 22
+
+TFT_eSPI tft = TFT_eSPI();
+DHT dht(DHTPIN, DHTTYPE);
+
+const char* ssid     = "PAYO";
+const char* password = "Admin123";
+String serverURL = "http://192.168.71.202/php/datos.php";
+
+void setup() {
+  Serial.begin(115200);
+
+  // TFT
+  tft.init();
+  tft.setRotation(1);
+  tft.fillScreen(TFT_BLACK);
+  tft.setTextColor(TFT_WHITE);
+  tft.setTextSize(2);
+
+  tft.setCursor(10, 10);
+  tft.println("Iniciando WiFi...");
+
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+  }
+
+  tft.fillScreen(TFT_BLACK);
+  tft.setCursor(10, 10);
+  tft.setTextColor(TFT_GREEN);
+  tft.println("WiFi Conectado!");
+  tft.print("IP: "); 
+  tft.println(WiFi.localIP());
+  delay(2000);
+
+  dht.begin();
+  pinMode(PIR_PIN, INPUT);
+  pinMode(MIC_DIGITAL, INPUT);
+}
+
+void loop() {
+
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+  int estado = digitalRead(PIR_PIN);
+  int volumen = analogRead(MIC_ANALOG);
+  int ruidoDigital = digitalRead(MIC_DIGITAL);
+
+  if (WiFi.status() == WL_CONNECTED) {
+
+    HTTPClient http;
+    http.begin(serverURL);
+    http.addHeader("Content-Type", "application/x-www-form-urlencoded");
+ 
+
+    float t = dht.readTemperature();   // temperatura
+    float h = dht.readHumidity();      // humedad → hezetasuna
+    int estado = digitalRead(PIR_PIN); // movimiento → detectado
+    int volumen = analogRead(MIC_ANALOG); // sonido → soinua
+
+    String detecta = (estado == 1) ? "SI" : "NO";
+
+    String datos =
+      "temperatura=" + String(t, 2) +
+      "&hezetasuna=" + String(h, 2) +
+      "&soinua=" + String(volumen) +
+      "&detectado=" + detecta;
+
+    Serial.println("Enviando:");
+    Serial.println(datos);
+
+    int code = http.POST(datos);
+
+    Serial.print("Respuesta HTTP: ");
+    Serial.println(code);
+
+    String resp = http.getString();
+    Serial.print("Respuesta servidor: ");
+    Serial.println(resp);
+
+    http.end();
+  }
+
+  // TFT
+  tft.fillRect(10, 50, 230, 150, TFT_BLACK);
+  tft.setCursor(10, 50);
+
+  if (!isnan(h) && !isnan(t)) {
+    tft.setTextColor(TFT_CYAN);
+    tft.printf("Temp: %.1f C\n", t);
+    tft.setTextColor(TFT_YELLOW);
+    tft.printf("Humedad: %.1f %%\n", h);
+  } else {
+    tft.setTextColor(TFT_RED);
+    tft.println("Error DHT");
+  }
+
+  tft.setTextColor(TFT_WHITE);
+  tft.setCursor(10, 110);
+  tft.printf("Movimiento: %s\n", estado ? "SI" : "NO");
+
+  tft.setCursor(10, 140);
+  tft.print("Volumen: ");
+  tft.println(volumen);
+
+  tft.setCursor(10, 170);
+  if (ruidoDigital == HIGH) {
+    tft.setTextColor(TFT_YELLOW);
+    tft.println("Ruido detectado!");
+  } else {
+    tft.setTextColor(TFT_DARKGREY);
+    tft.println("Todo tranquilo");
+  }
+
+  delay(60000);
+}
