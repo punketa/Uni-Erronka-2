@@ -2,7 +2,7 @@
 
 ## Sareak:
 
-Guk ubuntu server batean sortu dugu intraneta. Ubuntu serverra gure Bezeroentzako sarean kokatuta dago.&#x20;
+Guk ubuntu server batean sortu dugu intraneta. Ubuntu serverra gure Bezeroentzako sarean kokatuta dago.
 
 Sare konfigurazioa:
 
@@ -21,8 +21,6 @@ MariaDB\
 PHP\
 Beharrezko moduluak
 
-
-
 -Moduluak aktibatu apachen:
 
 sudo a2enmod rewrite
@@ -31,15 +29,11 @@ sudo a2enmod ssl
 
 sudo systemctl restart apache2
 
-
-
 -Crear la carpeta de la intranet:
 
 sudo mkdir -p /var/www/intranet
 
 sudo chown -R $USER:$USER /var/www/intranet
-
-
 
 -Baimenak:
 
@@ -54,15 +48,13 @@ sudo mkdir -p /etc/ssl/intranet
 
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \\
 
-&#x20; -keyout /etc/ssl/intranet/intranet.key \\
+-keyout /etc/ssl/intranet/intranet.key \\
 
-&#x20; -out /etc/ssl/intranet/intranet.crt \\
+-out /etc/ssl/intranet/intranet.crt \\
 
-&#x20; -subj "/CN=intranet.payo.eus" \\
+-subj "/CN=intranet.payo.eus" \\
 
-&#x20; -addext "subjectAltName=DNS:intranet.payo.eus"
-
-
+-addext "subjectAltName=DNS:intranet.payo.eus"
 
 -VirtualHost HTTPS:\
 sudo nano /etc/apache2/sites-available/intranet-ssl.conf
@@ -94,6 +86,10 @@ sudo a2ensite intranet-ssl.conf
 
 sudo systemctl restart apache2
 
+-DNS-a sortu:
+
+(fotillo del dns)
+
 ## Datu basea
 
 -Datu basea sortu:
@@ -112,15 +108,15 @@ USE intranet;
 
 CREATE TABLE erabiltzaileak(
 
-&#x20;   id INT AUTO\_INCREMENT PRIMARY KEY,
+id INT AUTO\_INCREMENT PRIMARY KEY,
 
-&#x20;   erabiltzailea VARCHAR(50) NOT NULL UNIQUE,
+erabiltzailea VARCHAR(50) NOT NULL UNIQUE,
 
-&#x20;   email VARCHAR(100) NOT NULL UNIQUE,
+email VARCHAR(100) NOT NULL UNIQUE,
 
-&#x20;   pasahitza VARCHAR(255) NOT NULL,
+pasahitza VARCHAR(255) NOT NULL,
 
-&#x20;   sortuta TIMESTAMP DEFAULT CURRENT\_TIMESTAMP
+sortuta TIMESTAMP DEFAULT CURRENT\_TIMESTAMP
 
 );
 

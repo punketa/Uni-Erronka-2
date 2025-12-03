@@ -1,2 +1,1 @@
-# Page
-
+2. Erronkaren planifikazioa eta dokumentazioa.
