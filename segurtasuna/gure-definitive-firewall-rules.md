@@ -12,7 +12,17 @@ WAN FROGAK:
 
 <figure><img src="../.gitbook/assets/unknown (29).png" alt=""><figcaption></figcaption></figure>
 
-LAN (Zerbitzuak)
+LAN (Zerbitzuak):
+
+LAN-a ez du uzten DMZ pasatzen, soilik Wordpress eta Jitsi erabiltzeko behar diren portuak zabaltzen ditu.
+
+LAN-a Gitano.eus  (10.0) sare osoa uzten du pasatzen. Konexio totala eralazioa egiteko.
+
+LAN-a sarrera guztia du Bezeroekin (3.0), sarrera totala izanik.
+
+LAN-a klasearen (71.0) sare osoa blokeatzen du.
+
+LAN-a bakarrik sarearen funtzio basikoak utziko ditu pasatzen.
 
 <figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
@@ -57,6 +67,14 @@ LAN FROGAK:
 
 DMZ
 
+DMZ ez du konekziorik izango ez LAN ez Bezeroen sareekin.
+
+DMZ Gitano.eus (10.0) sare osoa uzten du pasatzen.
+
+DMZ klasearen (71.0) IP batzuen portu batzuk uzten ditu pasatzen.
+
+DMZ bakarrik sarearen funtzio basikoak utziko ditu pasatzen.
+
 <figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 DMZ FROGAK:
@@ -82,7 +100,7 @@ DMZ FROGAK:
 <figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
 \
--Pings a cada servidor y pcs del 71.0 (no debe hacer ping a ninguno quitando al 71.75, al 71.202, 71.214 y al arduino a esos si hace ping por que el wordpress coge datos de la base de datos de adrian (71.202) o si lo hacemos con datos inventado en la base de datos de diego (71.214) , y el codigo de arduino lo tiene Igor y el arduino tambien tiene su propia IP (71.2xx))
+-Pings a cada servidor y pcs del 71.0 (no debe hacer ping a ninguno el 71.75, al 71.202, 71.214 y el arduino tienen los puertos necesarios abiertos, por que el wordpress coge datos de la base de datos de adrian (71.202) o si lo hacemos con datos inventado en la base de datos de diego (71.214) , y el codigo de arduino lo tiene Igor 71.45 y el arduino tambien tiene su propia IP (71.2xx))
 
 
 
@@ -97,29 +115,63 @@ DMZ FROGAK:
 
 BEZ
 
+Pfsense Admin bezeroarentzako salbuespenak frogak egiteko.
+
+Bez sarea Gitano.eus (10.0) sare osoa blokeatzen du (Payo.eus -eko unibertsitatekoak direlako)
+
+Bezero normalak ezin dira PFsense web orrira sartu (Soilik Pfsense Admin)
+
+Bez DMZ-ko web zerbitzuentzako (Wordpress eta Jitsi) portu zehatzak zabaltzen ditu.
+
+DMZ bakarrik sarearen funtzio basikoak utziko ditu pasatzen.
+
+Bezeroen arteko komunikazio osoa dago.
+
 <figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 BEZ FROGAK:
 
 -Pings a cada servidor y pcs del 1.0 (debe hacer ping)
 
-\
+<figure><img src="../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+
 -Pings a cada servidor y pcs del 2.0 (no debe hacer ping)
+
+<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
 
 \
 -Pings a cada servidor y pcs del 3.0 (debe hacer ping)
 
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+
 \
 -Pings a cada servidor y pcs del 10.0 (no debe hacer ping)
+
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 \
 -Pings a cada servidor y pcs del 71.0 (no debe hacer ping)
 
-\
--Mirar pfsense, intranet, wordpres, jitsi, dfs etc (deberia entrar a todo menos pfsense, quitando el bezero 3.103 ese bezero es de pruebas para no ir cambiando de makina tol rato)
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 \
+-Mirar pfsense, intranet, wordpres, jitsi, dfs etc (deberia entrar a todo menos pfsense, quitando el bezero 3.103 ese bezero es de pruebas para no ir cambiando de makina tol rato puede entrar a todo)
+
+<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+
+<br>
+
+<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+
+\*Aqui da el error de q cuando se meten dos usuarios se desconectan de la llamada, hay q preguntar a Esti\*
+
 -Mirar si deja entrar a steam, discord o asi (no deberia entrar, tiene los puertos basicos de internet, salta una alerta)
+
+<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 VPN
 
