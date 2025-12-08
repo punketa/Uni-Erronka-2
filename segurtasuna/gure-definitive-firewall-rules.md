@@ -159,9 +159,11 @@ BEZ FROGAK:
 \
 -Mirar pfsense, intranet, wordpres, jitsi, dfs etc (deberia entrar a todo menos pfsense, quitando el bezero 3.103 ese bezero es de pruebas para no ir cambiando de makina tol rato puede entrar a todo)
 
+(falta pfsense)
+
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-<br>
+
 
 <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
@@ -182,3 +184,55 @@ VPN FROGAK:
 <figure><img src="../.gitbook/assets/unknown (28).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/unknown (29).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## PFSENSE2
+
+Lehenik aipatu behar da, perimetro-segurtasuna pfSense1 eremuan zentralizatzen dela.&#x20;PfSense2 konfiantza-firewall gisa konfiguratzen da, eta gutxieneko arauak ditu enpresa arteko komunikazio segurua eta kontrolatua bermatzeko.
+
+ALIAS bat sortu dugu arinago egiteko: (lehen pfsensean ez dugu erabili por q no sabiamos)
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Arauak:
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+GITANO LAN
+
+-pings a cada servidor y pcs del 1.0 debe hacer
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+\
+-pings a cada servidor y pcs del 2.0 no debe hacer
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+-pings a cada servidor y pcs del 3.0 debe hacer
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+\
+-pings a cada servidor y pcs del 10.0 debe hacer
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+\
+-pings a cada servidor y pcs del 71.0 no debe hacer
+
+\
+![](<../.gitbook/assets/image (9).png>)
+
+-mirar pfsense, intranet, wordpres, jitsi, dfs etc (deberia entrar a todo menos pfsense)
+
+(falta pfsense)
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>

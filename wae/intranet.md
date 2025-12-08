@@ -10,21 +10,21 @@ Sareko guztia egin ondoren githubeko repositorio partekatu bat sortu dugu, soili
 
 Visual studio sftp eta ssh bitartez lortu dugu visual studion egindako azken bertsioa ubuntura igotzea.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Web dokumentuak sortzen ditu zerbitzariko script-lengoaiak erabilita.
 
-### &#xD; Intranetaren diseinua
+### Intranetaren diseinua
 
 Intraneta sortu dugu PAYO.EUS barruko kideak erabiltzeko.
 
 Login orria:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Register orria:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Hasierako orria:
 
@@ -34,39 +34,37 @@ Hasierako orria:
 
 Sartzerakoan https://intranet.payo.eus login orrialdera bidaltzen gaitu:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Logeatzeroakoan ongietorri orrira bidaltzen gaitu:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Erabiltzaile berrien erregistroa funtzionaltasuna dauka:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 "Aceptar" ematerakoan logeatzeko orrira bidaltzen gaitu:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-Pasahitz enkriptatuak erabiltzen&#x20;dira:
+Pasahitz enkriptatuak erabiltzen dira:
 
 -Hau erregistratzerakoan:
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 -Hau login egiterakoan:
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Datu basean horrela ikusten da:
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Login-ari persistentzia ematen zaio
 
