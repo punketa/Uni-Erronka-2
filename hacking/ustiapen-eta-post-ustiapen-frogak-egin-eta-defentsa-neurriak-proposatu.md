@@ -2,13 +2,19 @@
 
 ### Zer dira ustiapen eta post-ustiapen faseak?
 
-Ustiapen fasea:
+**Ustiapen fasea:**
 
+Exploitation fasea aldez aurretik identifikatutako ahultasunak erabiltzen duen fasea da, sisteman baimenik gabeko sarbidea lortzeko.
 
+Fase honetan, erasotzaileak zerbitzu edo konfigurazio ahul bat ustiatu egiten du, sisteman sartzeko edo pribilegioak handitzeko helburuarekin. Ustiaketa arrakastatsua bada, sistema konprometituta geratzen da.
 
-Post-ustiapen fasea:
+**Post-ustiapen fasea:**
 
+Post-exploitation fasea, ustiaketa baten ondoren datorren fasea da. Fase honetan, lortutako sarbidearen eraginaren azterketa egiten da.
 
+Helburua da, lortutako erabiltzailearen pribilegioak egiaztatzea, sistemaren informazioa identifikatzea eta erasotzaile batek sistema barruan zer nolako kontrola izan dezakeen baloratzea.
+
+Fase honek erakusten du ahultasunak benetako arriskua duen ala ez.
 
 ### Ustiapenak:
 
@@ -160,7 +166,7 @@ Ondoren, sistema eragilea eta haren bertsioa identifikatu dugu Uname -a komando 
 
 Egiaztapen horiek erakusten dute erasotzaileak sistemaren gaineko kontrol osoa duela, eta komando arbitrarioak exekutatu, erabiltzaile lokaleengana jo eta beste barne-zerbitzu batzuk arriskuan jar ditzakeela.
 
-Beraz, ustiatutako kalteberatasunak eragin kritikoa du, ustiapen bakar batek sistemaren erabateko konpromisoa ahalbidetzen baitu.
+Beraz, ustiatutako ahultasunak eragin kritikoa du, ustiapen bakar batek sistemaren erabateko konpromisoa ahalbidetzen baitu.
 
 
 

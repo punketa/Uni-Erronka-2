@@ -2,6 +2,10 @@
 
 Lehenik, 192.168.1.0 sarean dugun zerbitzu guztiak piztu ditugu.
 
+### Auditoria mota: Zuria
+
+Kutxa zuriko analisia egingo dugu sarearen ikuspegi totala dugulako. Zerbitzariak, firewallak, ip-ak, portuak... ezagutzen ditugulako.
+
 ### Auditoretzaren helburuak eta mugak zehaztu:
 
 Kali Linuxetik Metasploitable makinaren urrakortasun errealak detektatu, ustiatu eta dokumentatzea, horien eragina ebaluatuz eta defentsa-neurriak proposatuz.
@@ -14,13 +18,13 @@ Aztertutako zerbitzuak:
 
 -FTP (vsftpd)
 
--SSH
-
--HTTP (Apache)
-
 -MySQL
 
 -Samba
+
+-Telnet
+
+-VNCviewer
 
 ### Auditoria faseak:
 
