@@ -70,7 +70,7 @@ Arrakasta izan dugu, shell barrura sartu gara:
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-Orain FLAG bat ipiniko dugu metasploitablean:
+#### Orain FLAG bat ipiniko dugu metasploitablean:
 
 nabegatzailean metasploitablea orria ikus dezakegu:
 
@@ -92,7 +92,7 @@ Usermap\_script miaketa erabili dugu konfigurazio eskasaren ondorioz, eta, honi 
 
 
 
-### MYSQL:
+#### MYSQL:
 
 Bertsioa konprobatu:
 
@@ -116,7 +116,7 @@ Mysql-ra urruneko konexio bat egiten saiatu ondoren, egiaztatu dugu zerbitzuak l
 
 
 
-### TELNET:
+#### Telnet:
 
 Bertsioa konprobatu:
 
@@ -138,7 +138,7 @@ Ondorioa: Defetuzko kredentzialak (msfadmin/msfadmin) erabiliz sartu gara Telnet
 
 
 
-### VNC:
+#### VNC:
 
 Bertsioa konprobatu:
 
