@@ -1,8 +1,20 @@
 # Ustiapen eta post-ustiapen frogak egin eta defentsa neurriak proposatu
 
+### Zer dira ustiapen eta post-ustiapen faseak?
+
+Ustiapen fasea:
+
+
+
+Post-ustiapen fasea:
+
+
+
 ### Ustiapenak:
 
 #### FTP:
+
+Bertsioa konprobatu:
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,6 +44,8 @@ FTP zerbitzua ustiatzen saiatu gara, vsftpd 2.3.4 backdoor ustiapenaren bidez. Z
 
 #### Samba:
 
+Bertsioa konprobatu:
+
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 Zaurgarritasun publikoen datu-basea kontsultatzen dugu:
@@ -58,3 +72,116 @@ Usermap\_script miaketa erabili dugu konfigurazio eskasaren ondorioz, eta, honi 
 
 ### MYSQL:
 
+Bertsioa konprobatu:
+
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+
+Zaurgarritasun publikoen datu-basea kontsultatzen dugu:
+
+<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+
+MySQL-rekin lotutako ahultasun ugari daude, baina kasu honetan ustiapena zerbitzuaren konfigurazio ez-seguruan oinarrituko gara (root pasahitza gabe)
+
+<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+
+Saiatu gara mysql-ra sartzen, hau funtzionatuko zuen mysql-k konexio remotoak onartuko baitzuen, baina soilik lokalak onartzen ditu. Beraz, samba bitartez konexioa dugunez bertatik konexioa egiten saiatuko gara:
+
+<figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+
+Ondorioa:&#x20;
+
+Mysql-ra urruneko konexio bat egiten saiatu ondoren, egiaztatu dugu zerbitzuak localhost konexioak baino ez zituela onartzen. Ondoren, Samba bidez root sarbidea lortu ondoren, MySQL zerbitzura localhost bezala sartzen saiatu gara eta root erabiltzaileak autentifikazioa behar duela egiaztatu dugu.
+
+
+
+### TELNET:
+
+Bertsioa konprobatu:
+
+<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
+
+Zaurgarritasun publikoen datu-basea kontsultatzen dugu:
+
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+
+Searchsploit telnet-en emaitzetatik abiatuta, egiaztatu dugu Telnet zaurgarritasun historiko ugari dituen zerbitzua dela. Hala ere, ingurune horretan kredentzialen ahultasunean zentratzea erabaki dugu (defektuzko pasahitzak erabiliz 😛)
+
+<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+
+Sartzea lortu dugu!
+
+<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+
+Ondorioa: Defetuzko kredentzialak (msfadmin/msfadmin) erabiliz sartu gara Telnet zerbitzura, horri esker saioa urruneko moduan hasi ahal izan da sisteman.
+
+
+
+
+
+
+
+
+
+Momentuz, zer lortu dugu?
+
+5 ustiapen egin ditugu eta bakarrik bat izan du arrakasta.
+
+Honek ez du esan nahi pentesting-a failatu dugula. Prozesua nahiko errealista izan da, beti ez gara guztietara sartuko eta honi esker hainbat informazio baliagarri lortu dugu, horien artean:
+
+Samba: Kontrol guztia lortu dugu root bidez sartzen.
+
+FTP: Zaurgarria da baina ezin da ustiapena egin.
+
+Mysql: Zaurgarria da, bistan dago baina babestuta.
+
+
+
+### Post-ustiapena:
+
+Samba:
+
+Samba zerbitzuaren ustiapen arrakastatsuaren ondoren, administratzaile pribilegioak (root) zituen urruneko shell bat lortu dugu makina zaurgarrian (metasploitable).
+
+Ustiapen fasean, hainbat egiaztapen egin dugu lortutako sarbidearen benetako inpaktua ebaluatzeko.
+
+Lehenik, erabiltzaile konprometituaren pribilegioak egiaztatu ziren:
+
+Whoami komandoak sarrera root gisa egin dela baieztatu du.
+
+<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+
+ID bidez egiaztatu dugu UID eta GID erabiltzaile administratzaileari dagozkiola (UID 0).
+
+<figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+
+Ondoren, sistema eragilea eta haren bertsioa identifikatu dugu Uname -a komando bitartez, eta Linux sistema deseguneratua dela aipatu zaigu.
+
+<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+
+Egiaztapen horiek erakusten dute erasotzaileak sistemaren gaineko kontrol osoa duela, eta komando arbitrarioak exekutatu, erabiltzaile lokaleengana jo eta beste barne-zerbitzu batzuk arriskuan jar ditzakeela.
+
+Beraz, ustiatutako kalteberatasunak eragin kritikoa du, ustiapen bakar batek sistemaren erabateko konpromisoa ahalbidetzen baitu.
+
+
+
+Telnet:
+
+Telnet zerbitzuaren bidez sisteman sartu ondoren, msfadmin/msfadmin defektuzko kredentzialak erabiliz, urruneko shell bat lortu dugu makina zaurgarrian
+
+<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+
+Lehenik, konprometitutako erabiltzailearen baimenak whoami komando bidez egiaztatu dugu:&#x20;
+
+<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+
+Ondoren, erabiltzailearen pribilegioak ebaluatu ziren eta sudo su erabiliz administrazio-baimenak zituela egiaztatu zen.
+
+<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+
+eta pasahitz bera sartu (msfadmin), root-pribilegioak zituen shell bat lortu zen, hau da, sistemaren kontrol osoa.
+
+Azkenik, komandoak batzuk exekutatu dugu id eta uname -a sistemaren informazioa biltzeko eta ingurune konprometitua berresteko.
+
+<figure><img src="../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+
+Emaitza honek erakusten du Telnet bezalako zerbitzu ez-seguru batean kredentzial ahulak izatea erasotzaile bati sisteman sartzeko aukera errazten diola, gainera pribilegioak rooteraino igotzeko aukera ere eman diezaioke, makina zaurgarria hainbat arriskuan jarriz.
