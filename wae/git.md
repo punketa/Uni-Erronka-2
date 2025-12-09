@@ -8,7 +8,7 @@ description: 'Github eta Gitbook:'
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 -Gitbookean Github kontuarekin lotu dugu eta taldeko batek organizazio bat sortu du Githubeko repositorio partekatua erabiliz. Ondoren organizazio kideak gonbidatu ditu:
 

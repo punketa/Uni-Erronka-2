@@ -193,11 +193,11 @@ Lehenik aipatu behar da, perimetro-segurtasuna pfSense1 eremuan zentralizatzen d
 
 ALIAS bat sortu dugu arinago egiteko: (lehen pfsensean ez dugu erabili por q no sabiamos)
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Arauak:
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 GITANO LAN
 
@@ -214,18 +214,18 @@ GITANO LAN
 
 -pings a cada servidor y pcs del 3.0 debe hacer
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 -pings a cada servidor y pcs del 10.0 debe hacer
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 -pings a cada servidor y pcs del 71.0 no debe hacer
 
 \
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
 -mirar pfsense, intranet, wordpres, jitsi, dfs etc (deberia entrar a todo menos pfsense)
 
@@ -235,4 +235,4 @@ GITANO LAN
 
 <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
