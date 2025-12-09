@@ -70,9 +70,25 @@ Arrakasta izan dugu, shell barrura sartu gara:
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
+Orain FLAG bat ipiniko dugu metasploitablean:
+
+nabegatzailean metasploitablea orria ikus dezakegu:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Web orrian gure flag-a jartzen dugu:
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
 Ondorioa:
 
-Usermap\_script miaketa erabili dugu konfigurazio eskasaren ondorioz, eta, honi esker, komandoak urrutitik exekutatu ahal izan dugu, aldez aurretik autentifikatu gabe. Horren ondorioz, urruneko shell bat lortu dugu, administratzaile pribilegioekin (root)
+Usermap\_script miaketa erabili dugu konfigurazio eskasaren ondorioz, eta, honi esker, komandoak urrutitik exekutatu ahal izan dugu, aldez aurretik autentifikatu gabe. Horren ondorioz, urruneko shell bat lortu dugu, administratzaile pribilegioekin (root) eta flag bat ipini diogu metasploitable web orrian.
 
 
 
@@ -126,25 +142,25 @@ Ondorioa: Defetuzko kredentzialak (msfadmin/msfadmin) erabiliz sartu gara Telnet
 
 Bertsioa konprobatu:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Zaurgarritasun publikoen datu-basea kontsultatzen dugu:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 VNC urruneko sarbide-zerbitzu grafikoa da, eta behar bezala babestuta ez badago, sistemaren kontrol osoa ahalbidetzen du.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 password pasahitza jarri ondoren sartu gara:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Sisteman VNC bidez sartu ondoren, mahaigaineko kontrol grafiko osoa lortu dugu, sistema eragilearekin zuzenean elkarreragiteko aukera emanez. Sarbide mota horrek aukera emango lioke erasotzaile bati aplikazioak exekutatzeko, fitxategiak aldatzeko eta informazio sentikorra lortzeko.
 
@@ -165,6 +181,8 @@ Mysql: Zaurgarria da, bistan dago baina babestuta.
 Telnet: Kontrol guztia lortu dugu root erabiltzaile baten bidez sartzen.
 
 VNC: Sistemaren kontrol grafiko osoa.
+
+
 
 ### Post-ustiapena:
 
@@ -226,6 +244,6 @@ Ondoren, sistemaren barruan terminal bat ireki dugu eta honako egiaztapenak egin
 
 whoami: sisteman aktibo dagoen erabiltzailea egiaztatzeko
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Post-exploitation fase honek erakusten du VNC zerbitzuaren bidezko sarbideak erasotzaileari aukera ematen diola: aplikazioak exekutatzeko, fitxategiak ikusi edo aldatzeko, eta sistemaren kontrol grafiko osoa edukitzeko.
