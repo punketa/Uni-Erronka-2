@@ -18,4 +18,4 @@ Proba aktiboek sistema objektiboarekin zuzenean elkarreragitea eskatzen dute, pa
 
 Adibidez nmap: portuak eta zerbitzuak eskaneatzeko
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>

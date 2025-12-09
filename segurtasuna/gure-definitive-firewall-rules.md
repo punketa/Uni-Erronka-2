@@ -193,7 +193,7 @@ Lehenik aipatu behar da, perimetro-segurtasuna pfSense1 eremuan zentralizatzen d
 
 ALIAS bat sortu dugu arinago egiteko: (lehen pfsensean ez dugu erabili por q no sabiamos)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Arauak:
 
@@ -203,12 +203,12 @@ GITANO LAN
 
 -pings a cada servidor y pcs del 1.0 debe hacer
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 -pings a cada servidor y pcs del 2.0 no debe hacer
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -231,8 +231,8 @@ GITANO LAN
 
 (falta pfsense)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>

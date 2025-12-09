@@ -16,7 +16,7 @@ Lehenik partizioak sortu ditugu:
 
 <figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
-(foto)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Karpetak sortu ditugu:
 
@@ -24,7 +24,7 @@ Karpetak sortu ditugu:
 
 <figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
-(foto)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Segurtasunesko baimenak jarri ditugu:
 
@@ -36,7 +36,7 @@ Karpetak partekatu ditugu:
 
 <figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
-(foto)
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 DFS instalatu:
 
