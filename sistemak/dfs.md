@@ -14,7 +14,7 @@ Lehenik partizioak sortu ditugu:
 
 <figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Karpetak sortu ditugu:
 
@@ -22,7 +22,7 @@ Karpetak sortu ditugu:
 
 <figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Segurtasunesko baimenak jarri ditugu:
 
@@ -86,7 +86,7 @@ Karpetak partekatu ditugu:
 
 <figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Primero PAYOTANO:
 
@@ -138,7 +138,7 @@ DFS instalatu:
 
 DNS-ak jarri behar dira makinak izen bidez aurkitzeko:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Karpetak sortu barruan eta beraien helbideak ezarri:
 
@@ -154,11 +154,11 @@ Karpetak sortu barruan eta beraien helbideak ezarri:
 
 \*Hau Gitano domeinua duen makinatik dator:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Horrela ikusten da:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Erraztasunak erabiltzaileentzat
 
@@ -168,12 +168,12 @@ GPO bitartez erabiltzaile guztientzat unidad de red bat sortu:
 
 <figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Acceso directo:
 
 GPO bitartez erabiltzaile guztientzat acceso directo bat sortu:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>

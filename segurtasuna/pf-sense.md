@@ -38,9 +38,9 @@ Orain beste interfazeak eta sareen IP-ak jarriko ditugu:&#x20;
 
 <figure><img src="../.gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 192.168.71.45 taldeko baten ip pertsonala da eta hori erabili dugu pfsense-ren WAN bezala. Honek ematen digu interneta. Beste aldetik sareak ezarri ditugu. (Sareak berez .254 izan behar dira gateway direlako, baina hasieratik holan laga nuen eta orain beldurra daukat aldatzeko 💀)
 

@@ -126,7 +126,7 @@ EXIT;
 
 Kodeatzeko visual studion egin dugu eta gero sftp eta ssh bitartez ubuntura igo dugu:
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 -Repo: [https://github.com/punketa/intranet\_payo](https://github.com/punketa/intranet_payo)
 
