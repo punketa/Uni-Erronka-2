@@ -50,8 +50,6 @@
   * [Ahultasun auditoria](hacking/ahultasun-auditoria.md)
   * [Ustiapen eta post-ustiapen frogak egin eta defentsa neurriak proposatu](hacking/ustiapen-eta-post-ustiapen-frogak-egin-eta-defentsa-neurriak-proposatu.md)
   * [Pentesting](hacking/pentesting.md)
-  * [Ekipo Kritikoak](hacking/ekipokritikoak.md)
-  * [Kali Linux](hacking/kali.md)
 * [Hardware](hardware/README.md)
   * [Hardware](hardware/hardware.md)
   * [Software](hardware/software.md)
