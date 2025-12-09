@@ -6,9 +6,7 @@ Hasiera batean beste modu batean egin genuen DFS-a baina gero zuzendu dugu. Hasi
 
 Gure karpeten egitura hauxe da:
 
-(foto)
-
-
+<figure><img src="../.gitbook/assets/karpetak.drawio (1).png" alt=""><figcaption></figcaption></figure>
 
 Lehenik partizioak sortu ditugu:
 
@@ -28,7 +26,59 @@ Karpetak sortu ditugu:
 
 Segurtasunesko baimenak jarri ditugu:
 
+Baimen asko jarri ditugu eta bakoitza bere frogak ditu, baina asko direnez argazki asko izango dira eta asko okupatuko zuen gitbookean, beraz bakarrik batzuk jarriko ditugu, denak ikusteko hemen utsiko dizugu pdf bat guztiekin:&#x20;
 
+{% file src="../.gitbook/assets/DFS ERRONKA.pdf" %}
+
+-En MATERIALA PAYO:
+
+Quitar herencia‼️
+
+A los profes payos:
+
+![](<../.gitbook/assets/unknown (36).png>)
+
+hay q añadir a usuarios de este dominio de payo
+
+![](<../.gitbook/assets/unknown (37).png>)
+
+![](<../.gitbook/assets/unknown (38).png>)
+
+-En MATERIALA GITANO:
+
+Quitar herencia‼️
+
+A los profes gitanos:
+
+![](<../.gitbook/assets/unknown (39).png>)
+
+hay q añadir a usuarios de este dominio de gitano
+
+![](<../.gitbook/assets/unknown (40).png>)<br>
+
+![](<../.gitbook/assets/unknown (41).png>)
+
+Froga batzuk:
+
+-1.mailako ikasle bat:
+
+pero no puede entrar a gitano por que es de payo
+
+<figure><img src="../.gitbook/assets/unknown (52).png" alt=""><figcaption></figcaption></figure>
+
+ve todas las carpetiñas, pero no puede entrar ni a admin ni irakasle
+
+<figure><img src="../.gitbook/assets/unknown (53).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/unknown (54).png" alt=""><figcaption></figcaption></figure>
+
+puede entrar a su clase y puede crear:
+
+<figure><img src="../.gitbook/assets/unknown (55).png" alt=""><figcaption></figcaption></figure>
+
+en el de la otra clase solo puede ver nada de crear:
+
+<figure><img src="../.gitbook/assets/unknown (56).png" alt=""><figcaption></figcaption></figure>
 
 Karpetak partekatu ditugu:
 
@@ -37,6 +87,46 @@ Karpetak partekatu ditugu:
 <figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+Primero PAYOTANO:
+
+-Compartido avanzado, permisos:
+
+![](<../.gitbook/assets/unknown (42).png>)
+
+hay que meter a administradores (payito)
+
+![](<../.gitbook/assets/unknown (43).png>)
+
+hay q meter a los usuarios de cada dominio
+
+![](<../.gitbook/assets/unknown (44).png>)
+
+![](<../.gitbook/assets/unknown (45).png>)
+
+(aqui en vez de payo deberia de ser en gitano.eus me salte la foto)
+
+![](<../.gitbook/assets/unknown (46).png>)
+
+![](<../.gitbook/assets/unknown (47).png>)
+
+(el de todos solo permiso de leer)
+
+Segundo MATERIAL PAYO:
+
+![](<../.gitbook/assets/unknown (48).png>)
+
+![](<../.gitbook/assets/unknown (49).png>)
+
+(el de todos solo permiso de leer)
+
+Tercero MATERIAL GITANO:
+
+![](<../.gitbook/assets/unknown (50).png>)<br>
+
+![](<../.gitbook/assets/unknown (51).png>)
+
+(el de todos solo permiso de leer)
 
 DFS instalatu:
 
