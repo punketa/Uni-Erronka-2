@@ -20,7 +20,7 @@ Datuak:
 
 -Sistema zaurgarria: Metasploitable 2
 
-Aztertzeko planteatu dugun zerbitzuak:
+Aztertzeko planteatu dugun gutxieneko zerbitzuak:
 
 -FTP (vsftpd)
 
@@ -102,4 +102,22 @@ Arriskua: HANDIA
 
 
 Larritasun ERTAINAKO zaurgarritasunak:
+
+Telnet – 23 portua
+
+Zifratu gabeko komunikazioa, Kredentzialak intertzeptatzeko aukera
+
+Eragina:&#x20;Erabiltzaile-kontuetarako sarbidea
+
+Arriskua: ERTAINA
+
+
+
+VNC – 5900 portua
+
+Urruneko sarbide grafiko posiblea
+
+Eragina:&#x20;Sistemaren urruneko kontrola
+
+Arriskua: ERTAINA
 
