@@ -1,4 +1,68 @@
 # DFS
 
-Guk beste modu batera egin dugu DFS-a. Ikusi genuen googelen eta esan digu egin duguna ere ondo dagoela.
+## DFS
+
+Hasiera batean beste modu batean egin genuen DFS-a baina gero zuzendu dugu. Hasieran pentsatu genuen karpeta guztiak DFS-a duen zerbitzarian gordetzea baina gero erabaki dugu ditugun bi domeinuetan ere karpetak sortzea eta elkarrekin partekatzea.
+
+Gure karpeten egitura hauxe da:
+
+(foto)
+
+
+
+Lehenik partizioak sortu ditugu:
+
+<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+
+(foto)
+
+Karpetak sortu ditugu:
+
+<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+
+(foto)
+
+Segurtasunesko baimenak jarri ditugu:
+
+
+
+Karpetak partekatu ditugu:
+
+<figure><img src="../.gitbook/assets/unknown (34).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+
+(foto)
+
+DFS instalatu:
+
+<figure><img src="../.gitbook/assets/unknown (35).png" alt=""><figcaption></figcaption></figure>
+
+"Espacio de nombres" sortu:
+
+<figure><img src="../.gitbook/assets/unknown (31).png" alt="" width="321"><figcaption></figcaption></figure>
+
+Karpetak sortu barruan eta beraien helbideak ezarri:
+
+\*Hauek DFS makinatik datozte:
+
+<figure><img src="../.gitbook/assets/unknown (32).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/unknown (33).png" alt=""><figcaption></figcaption></figure>
+
+\*Hau Payo domeinua duen makinatik dator:
+
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+
+\*Hau Gitano domeinua duen makinatik dator:
+
+(foto)
+
+## Erraztasunak erabiltzaileentzat
+
+
 
