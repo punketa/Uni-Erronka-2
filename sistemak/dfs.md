@@ -138,7 +138,7 @@ DFS instalatu:
 
 DNS-ak jarri behar dira makinak izen bidez aurkitzeko:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Karpetak sortu barruan eta beraien helbideak ezarri:
 
@@ -154,7 +154,7 @@ Karpetak sortu barruan eta beraien helbideak ezarri:
 
 \*Hau Gitano domeinua duen makinatik dator:
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Horrela ikusten da:
 
@@ -174,6 +174,6 @@ Acceso directo:
 
 GPO bitartez erabiltzaile guztientzat acceso directo bat sortu:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
