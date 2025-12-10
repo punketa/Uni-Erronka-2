@@ -40,6 +40,8 @@
   * [Sistema urruneko atzipena](sistemak/sistema-urruneko-atzipena.md)
   * [Urruneko sarbideak](sistemak/urruneko-sarbideak.md)
   * [Script-ak](sistemak/script-ak.md)
+  * [WS SG](sistemak/ws-sg.md)
+  * [Antibirus automatizatua](sistemak/antibirus-automatizatua.md)
 * [Iraunkortasuna](iraunkortasuna/README.md)
   * [Jasangarritasun-plana](iraunkortasuna/jasangarritasun-plana.md)
 * [Sistema Banatuak](sistemabanatuak/README.md)
