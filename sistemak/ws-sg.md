@@ -1,5 +1,7 @@
 # WS SG
 
+HAY QUE HACER DE LA PARTICIÓN DEL DISCO
+
 Lehenik eta behin karpeta partekatu bat sortuko dugu eta permisoak emango ditugu disko lokal C-an
 
 <figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
