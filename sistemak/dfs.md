@@ -58,27 +58,7 @@ hay q añadir a usuarios de este dominio de gitano
 
 ![](<../.gitbook/assets/unknown (41).png>)
 
-Froga batzuk:
 
--1.mailako ikasle bat:
-
-pero no puede entrar a gitano por que es de payo
-
-<figure><img src="../.gitbook/assets/unknown (52).png" alt=""><figcaption></figcaption></figure>
-
-ve todas las carpetiñas, pero no puede entrar ni a admin ni irakasle
-
-<figure><img src="../.gitbook/assets/unknown (53).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/unknown (54).png" alt=""><figcaption></figcaption></figure>
-
-puede entrar a su clase y puede crear:
-
-<figure><img src="../.gitbook/assets/unknown (55).png" alt=""><figcaption></figcaption></figure>
-
-en el de la otra clase solo puede ver nada de crear:
-
-<figure><img src="../.gitbook/assets/unknown (56).png" alt=""><figcaption></figcaption></figure>
 
 Karpetak partekatu ditugu:
 
@@ -136,7 +116,7 @@ DFS instalatu:
 
 <figure><img src="../.gitbook/assets/unknown (31).png" alt="" width="321"><figcaption></figcaption></figure>
 
-DNS-ak jarri behar dira makinak izen bidez aurkitzeko:
+DNS-ak jarri behar dira makinak izen bidez aurkitzeko: (bi domeinuetan)
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -159,6 +139,30 @@ Karpetak sortu barruan eta beraien helbideak ezarri:
 Horrela ikusten da:
 
 <figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Baimenen froga batzuk:
+
+Froga batzuk:
+
+-1.mailako ikasle bat:
+
+pero no puede entrar a gitano por que es de payo
+
+<figure><img src="../.gitbook/assets/unknown (52).png" alt=""><figcaption></figcaption></figure>
+
+ve todas las carpetiñas, pero no puede entrar ni a admin ni irakasle
+
+<figure><img src="../.gitbook/assets/unknown (53).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/unknown (54).png" alt=""><figcaption></figcaption></figure>
+
+puede entrar a su clase y puede crear:
+
+<figure><img src="../.gitbook/assets/unknown (55).png" alt=""><figcaption></figcaption></figure>
+
+en el de la otra clase solo puede ver nada de crear:
+
+<figure><img src="../.gitbook/assets/unknown (56).png" alt=""><figcaption></figcaption></figure>
 
 ## Erraztasunak erabiltzaileentzat
 
