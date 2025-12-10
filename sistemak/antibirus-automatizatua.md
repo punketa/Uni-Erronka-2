@@ -32,4 +32,6 @@ Hau sortzen da
 
 <figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
 
-Hau ejekutatzean
+Hau ejekutatzean horrela agertuko da "Seguridad de Windows"-en&#x20;
+
+<figure><img src="../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
