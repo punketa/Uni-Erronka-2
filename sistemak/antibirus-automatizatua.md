@@ -24,7 +24,7 @@ Gero
 
 <figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
 
-Gero
+Gero payiko
 
 ![](<../.gitbook/assets/image (180).png>)
 
