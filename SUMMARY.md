@@ -35,7 +35,7 @@
 * [Sistemak](sistemak/README.md)
   * [Erlaziozko Konfidantza](sistemak/erlaziozko-konfidantza.md)
   * [DFS](sistemak/dfs.md)
-  * [CRON](sistemak/cron.md)
+  * [CRON LINUX](sistemak/cron.md)
   * [Sistema urruneko atzipena](sistemak/sistema-urruneko-atzipena.md)
   * [Script-ak](sistemak/script-ak.md)
   * [WS SG](sistemak/ws-sg.md)
