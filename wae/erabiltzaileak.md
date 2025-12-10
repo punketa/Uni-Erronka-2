@@ -8,8 +8,12 @@ Web orria erabiltzaileak ditu, batzuek besteak baino baimen gehiagorekin. Modu h
 
 ### Erabiltzaileak gehitu:
 
-3 erabiltzaile sortu ditugu: 1 admin / 1 editor / 1 colaborador
+5 erabiltzaile sortu ditugu: 1 admin / 1 editor / 1 colaborador /2 suskriptore
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Erabiltzaileak datu basean ikusi:
 
 SELECT ID, user\_login, user\_email, user\_registered FROM wp\_users;
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

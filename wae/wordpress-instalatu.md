@@ -4,17 +4,15 @@ description: 'Wordpress instalatzeko pausuak:'
 
 # Wordpress instalatu
 
-Hasiera batean ubuntun egiten hasi ginen, baina isard eta internet arazoak direla eta localhost egitea hobea dela pentsatu dugu.
-
-### Wordpress Ubuntun
+Wordpress Ubuntun:
 
 * **DB:**
 
 CREATE DATABASE unipayo\_wp;
 
-CREATE USER 'uni\_admin'@'localhost' IDENTIFIED BY 'PayoServer';
+CREATE USER 'wp\_admin'@'localhost' IDENTIFIED BY 'Admin123';
 
-GRANT ALL PRIVILEGES ON unipayo\_wp.\* TO 'uni\_admin'@'localhost';
+GRANT ALL PRIVILEGES ON unipayo\_wp.\* TO 'wp\_admin'@'localhost';
 
 FLUSH PRIVILEGES;
 
@@ -48,16 +46,4 @@ sudo a2enmod rewrite
 
 sudo systemctl restart apache2\\
 
-Bezeroan: [http://192.168.10.12/wordpress](http://192.168.10.12/wordpress) \\
-
-* **Wordpress konfiguratu:**
-
-### Wordpress localean
-
-* **DB sortu MariaDBn.**
-* **XAMPP instalatu eta Apache marchan jarri:**
-* **Wordpress deskargatu eta C:\xampp\htdocs barruan sartu.**
-
-[https://localhost/wordpres](https://localhost/wordpres)
-
-\\
+Bezeroan: http://192.168.2.10

@@ -4,4 +4,5 @@ metaLinks: {}
 
 # Sarrera
 
-2. Erronkaren planifikazioa eta dokumentazioa.
+Hau da gure bigarren Erronkaren dokumentazioa.
+

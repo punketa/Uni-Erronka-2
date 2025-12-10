@@ -1,3 +1,7 @@
+---
+description: 'Hemen azaltzen da nola sortu dugu intraneta:'
+---
+
 # Intranet teknikoa
 
 ## Sareak:

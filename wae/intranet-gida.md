@@ -1,10 +1,14 @@
+---
+description: 'Intraneta nola erabili azaltzen da:'
+---
+
 # Intranet Gida
 
 Intraneta sortu dugu enpresa barruko erabiltzaileak bakarrik erabiltzeko. Bere helbidea https://intranet.payo.eus da.
 
 (foto de la helbide)
 
-Sartzerakoan, login orria aurkituko dugu. Bertan zure erabiltzailea eta pasahitza jarri beharko duzu eta datu baseko datuaekin bat egiten badu erabiltzailearen saioa hasiko da eta hasiera orrira bidaliko dizu.&#x20;
+Sartzerakoan, login orria aurkituko dugu. Bertan zure erabiltzailea eta pasahitza jarri beharko duzu eta datu baseko datuaekin bat egiten badu erabiltzailearen saioa hasiko da eta hasiera orrira bidaliko dizu.
 
 (foto del login orria)
 
