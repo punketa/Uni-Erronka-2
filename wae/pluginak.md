@@ -1,6 +1,8 @@
 # Pluginak
 
-Github repo bat sortu dut plugina garatzeko: [https://github.com/punketa/plugins\_wordpress\_unipayo](https://github.com/punketa/plugins_wordpress_unipayo)
+Github repo bat sortu dut plugina garatzeko:
+
+{% embed url="https://github.com/punketa/plugins_wordpress_unipayo" %}
 
 ### &#x20;Zer egin behar da?
 
