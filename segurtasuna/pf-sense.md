@@ -14,21 +14,21 @@ Sare txartelak ezarri makinari:
 
 Makina hasi, interfaceak hautatu (kontuz MAC-arekin) :&#x20;
 
-<figure><img src="../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Hasieran WAN ezartzerakoan DHCP bitartez emandako IP-a ezartzen dizu, aldetu behar da eta momentu batean Gateway eskatuko dizu, ezdakit zergatik nire kasuan salto egiten du komando hori beraz aurrerago aldatu beharko dut:
 
-<figure><img src="../.gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Behin IP-ak aldatuta, web orrira jo dezakegu eta helbide honetan jarri dezakegu WAN Gateway-a: 192.168.71.254
 
-<figure><img src="../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/unknown (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Orain beste interfazeak eta sareen IP-ak jarriko ditugu:&#x20;
 
-<figure><img src="../.gitbook/assets/unknown (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +36,7 @@ Orain beste interfazeak eta sareen IP-ak jarriko ditugu:&#x20;
 
 <figure><img src="../.gitbook/assets/unknown (12).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 

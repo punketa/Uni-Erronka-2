@@ -10,7 +10,7 @@ Guk ubuntu server batean sortu dugu intraneta. Ubuntu serverra gure Bezeroentzak
 
 Sare konfigurazioa:
 
-<figure><img src="../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure>
 
 -Pakete basikoak instalatu:
 
