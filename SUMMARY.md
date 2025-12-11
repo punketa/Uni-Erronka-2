@@ -24,7 +24,7 @@
   * [Sare Eskema](sareak/sare-eskema.md)
   * [DNS](sareak/dns.md)
   * [DHCP](sareak/dhcp.md)
-  * [SFTP/Filezilla](sareak/sftp-filezilla.md)
+  * [SFTP/VSFTPD](sareak/sftp-filezilla.md)
 * [Segurtasuna](segurtasuna/README.md)
   * [PF SENSE](segurtasuna/pf-sense.md)
   * [VPN](segurtasuna/vpn.md)
