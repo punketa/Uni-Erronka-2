@@ -183,6 +183,10 @@ ftp://192.168.2.10 edo dokumentuak.payo.eus /anonymous / pasahitzarik ez / 21
 
 <figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 
+dns-arekin sartu ezkero: (aceptar y palante)&#x20;
+
+<figure><img src="../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
 ### **Ezberdintasuna pribatua eta publikoaren artean.**
