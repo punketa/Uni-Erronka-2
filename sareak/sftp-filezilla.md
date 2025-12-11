@@ -54,6 +54,14 @@ DNS-a konfiguratu:
 
 <figure><img src="../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure>
 
+PFsense barruan 22 portua zabaldu bezeroentzat:
+
+<figure><img src="../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
+
+PFsense barruan 22 portua zabaldu lan barruan dagoenentzako:
+
+<figure><img src="../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+
 Filezilla client deskargatu eta saioa hasi:
 
 dokumentuak.payo.eus / adrian / pasahitza / 22
@@ -82,6 +90,8 @@ Erroreak saihestea: Ikasle batek nahi gabe sistemaren beste karpeta bat ezabatz
 
 ## VSFTPD
 
+Hemen ftp publiko bat sortu dugu TLS ziurtagiriarekin:
+
 ### Instalazioa:
 
 sudo apt update && sudo apt install vsftpd -y
@@ -90,23 +100,90 @@ Karpetak sortu:
 
 <figure><img src="../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
+Ziurtagiriak sortu:&#x20;
+
+```
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+-keyout /etc/ssl/private/vsftpd.key \
+-out /etc/ssl/certs/vsftpd.crt
+
+```
+
+(luego hay q poner los datos de la empresa bla bla bla)
+
+<figure><img src="../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
+
 sudo nano /etc/vsftpd.conf
 
-Onartzen dugu ftp anonimoak:
+komentatu guztia eta hau itsatsi:
 
-<figure><img src="../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
+```
+listen=YES
+listen_ipv6=NO
 
-Anonimoak ezin du ezer igo ez karpeta berriak sortu:
+# FTP PUBLIKO ANONIMO
 
-<figure><img src="../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
+anonymous_enable=YES
+anon_root=/srv/payoftp/publik
+o
+anon_upload_enable=NO
+anon_mkdir_write_enable=NO
+anon_other_write_enable=NO
 
-Lerro hauek gehitu:
+local_enable=NO
+write_enable=NO
 
-<figure><img src="../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+# FTPS (FTP Seguruago)
+
+ssl_enable=YES
+allow_anon_ssl=YES
+force_local_data_ssl=NO
+force_local_logins_ssl=NO
+
+rsa_cert_file=/etc/ssl/certs/vsftpd.crt
+rsa_private_key_file=/etc/ssl/private/vsftpd.key
+
+ssl_tlsv1=YES
+ssl_sslv2=NO
+ssl_sslv3=NO
+
+# Modo Pasivo (filezillan sartzeko)
+
+pasv_enable=YES
+pasv_min_port=21000
+pasv_max_port=21010
+
+# Segurtasuna
+
+chroot_local_user=NO
+allow_writeable_chroot=YES
+
+xferlog_enable=YES
+use_localtime=YES
+
+```
 
 Reboot:
 
 <figure><img src="../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+
+PFsense barruan 22 portua zabaldu bezeroentzat:
+
+<figure><img src="../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+
+PFsense barruan 22 portua zabaldu bezeroentzat:
+
+<figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+
+DNS: eginda dago aurrekoarekin balio du
+
+Filezillan sartu bezeroetatik:
+
+ftp://192.168.2.10 edo dokumentuak.payo.eus /anonymous / pasahitzarik ez / 21
+
+<figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
 ### **Ezberdintasuna pribatua eta publikoaren artean.**
 
