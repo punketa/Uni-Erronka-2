@@ -4,46 +4,19 @@ description: 'DHCP zerbitzua erabili dugu:'
 
 # DHCP
 
--**DHCP instalatu Active Directory bidez.**
+Konfigurazioa:
 
-### DHCP konfiguratu:
+DHCP bakarrik bezeroentzako, DMZ eta ZERB sareetan zerbitzuak daude eta haientzako onena ip estatikoak izatea da:
 
-* IP tartea ezarri
-* -Exklusioak ezarri
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### Bezeroa DHCP bidez konektatu:
+PFsense:
 
-* DNS = zerbidorearen IP-a
-* Ekipoaren zena aldatu.
-* Domeinuan sartu
-* Administradorearen datuak jarri
-* Beste erabiltzaile batekin saioa hasi
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-### Erreserbak
+Bezero batetik:
 
-* Izena eta ekipoaren MAC-a jarri.
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
--ipconfig /all
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
--ip config /release
-
--ip config /renew
-
-(Erreserba eginda dago, orain bezeroak sartzeko aurreko pausak egin:
-
-1-Ekipoaren izena aldatu
-
-2- ncpa.cpl eta DNS-an zerbitzariaren IP-a jarri
-
-3-Domeinuan sartu)
-
--Concesiones de direcciones:
-
-Bezeroak:
-
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-\
--Opciones de ambito:
-
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
