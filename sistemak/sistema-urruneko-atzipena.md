@@ -1,11 +1,22 @@
 # Sistema urruneko atzipena
 
-Anydesk erabilita linux batetik windows bezero eta windows zerbitzaria ikusi ahal dugu
+Anydesk erabiliko dugu zeren eta Windowseko Escritorio Remoto ez doa ondo.
 
-Bezeroa:
+Lehenik anydesk.exe artxiboa fitxategi partekatu batean sartu dugu sarean dagoen guztiak exekutatu behar dutenerako bertan izateko:
+
+<figure><img src="../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+
+Windowsetik Windowsera:
+
+
+
+Windowsetik Linuxera:
+
+
+
+Linuxetik Windowsera:
 
 <figure><img src="../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
 
-Zerbitzaria:&#x20;
+Linuxetik Linuxera:
 
-<figure><img src="../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>

@@ -119,12 +119,11 @@ sudo chmod -R 755 /var/www/glpi
 -HTTPS autofirmado:
 
 ```
-sudo mkdir -p /etc/ssl/glpi
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
--keyout /etc/ssl/glpi/glpi.key \
--out /etc/ssl/glpi/glpi.crt \
--subj "/CN=glpi.payo.eus" \
--addext "subjectAltName=DNS:glpi.payo.eus"
+  -keyout /etc/ssl/glpi/glpi.key \
+  -out /etc/ssl/glpi/glpi.crt \
+  -subj "/CN=glpi.payo.eus" \
+  -addext "subjectAltName=DNS:glpi.payo.eus"
 ```
 
 -VirtualHost HTTPS:\
@@ -136,26 +135,34 @@ sudo nano /etc/apache2/sites-available/intranet-ssl.conf
     Redirect permanent / https://glpi.payo.eus/
 </VirtualHost>
 
+# HTTPS
 <VirtualHost *:443>
     ServerName glpi.payo.eus
-    DocumentRoot /var/www/glpi
+
+    DocumentRoot /var/www/glpi/public
 
     SSLEngine on
     SSLCertificateFile /etc/ssl/glpi/glpi.crt
     SSLCertificateKeyFile /etc/ssl/glpi/glpi.key
 
-    <Directory /var/www/glpi>
+    <Directory /var/www/glpi/public>
         AllowOverride All
         Require all granted
     </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/glpi-error.log
+    CustomLog ${APACHE_LOG_DIR}/glpi-access.log combined
 </VirtualHost>
 ```
 
 -Aktibatu:
 
 ```
-sudo a2ensite intranet-ssl.conf
+sudo a2ensite glpi-ssl.conf
+sudo a2enmod rewrite
+sudo a2enmod ssl
 sudo systemctl restart apache2
+sudo systemctl status apache2
 ```
 
 -DNS-a sortu:

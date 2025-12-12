@@ -20,7 +20,6 @@
   * [Pluginak](wae/pluginak.md)
   * [GLPI](wae/glpi.md)
 * [Sareak](sareak/README.md)
-  * [IPak](sareak/ip.md)
   * [Sare Eskema](sareak/sare-eskema.md)
   * [DNS](sareak/dns.md)
   * [DHCP](sareak/dhcp.md)
