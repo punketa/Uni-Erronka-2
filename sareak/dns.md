@@ -4,40 +4,33 @@ description: 'DNS zerbitzua erabili dugu, adibide bezala jitsiren DNS-a jarriko 
 
 # DNS
 
--Gune berria sortu.
+### Zuzenak:
 
-\\
+payo.eus:
 
--”Gune Nagusia” eta kutxa tick-gabe.
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-\\
+### Alderantzizkoak:
 
--Izena jarri.
+192.168.1.0:
 
-\\
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
--”NO”
+192.168.2.0:
 
--Host name (A o AAA)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-IP-a jarri
+192.168.10.0:
 
--Alias (CNAME)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-\\
+### Reenviadores:
 
--Izena eta erreferentzia egiten dion hosta jarri.
+Beste domeinuarekin erlazio konfidantza egiteko:
 
--Orain bezero batetik horrela ikusten da:
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
--DNSak:
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
--Inversa:
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
--Reenviadores:
-
-<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>

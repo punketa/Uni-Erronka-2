@@ -10,7 +10,7 @@ description: 'Github eta Gitbook:'
 
 Nik (diego) sortu dudanez ez da agertzen nire izena baina repo nirea da eta barruan nago:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Github projects erabili dugu planifikazioa egiteko:
 
@@ -18,7 +18,7 @@ Github projects erabili dugu planifikazioa egiteko:
 
 Barruan, erronkaren atalak sailkatu ditugu eta bakoitza egin behar zuena banatu dugu:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Beste bi repo sortu ditugu:
 
@@ -38,9 +38,9 @@ Hemen pluginen garapena azaltzen da.
 
 -Gitbookean Github kontuarekin lotu dugu eta taldeko batek organizazio bat sortu du Githubeko repositorio partekatua erabiliz. Ondoren organizazio kideak gonbidatu ditu:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 -Bakoitza bere comitak egin ditu dokumentazioari datuak gehitzen. Azkenean site sortu dugu eta dokumentazioa argitaratu dugu:
 
