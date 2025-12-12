@@ -69,4 +69,28 @@ Orain powershell ISE irekiko dugu ejekutatzeko
 
 Aldatzen dugu mezua
 
+
+
 <figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+
+ORAIN 200 USUARIO SARTUKO DITUGU SKRIPT BATEKIN
+
+
+
+Kodea berdina erabiliko dugu baina erabiltzaileak csv txt-an usuario gehiago jarri beharko ditugu eta ere bai aldatu dut OU beste batean sartzeko ( Gero errezago izango delako ezabatzeko)
+
+Chatgpt sortutako erabiltzaileak sartuko ditugu "ScriptUser" OU-an
+
+<figure><img src="../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
+
+Gero skript-a ejekutatuko dugu&#x20;
+
+<figure><img src="../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
+
+Eta hemen ikusiko dira guztiak
+
+<figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+
+Eta horain usuario haiek ezabatzeko beste skript bat jarriko dugu
