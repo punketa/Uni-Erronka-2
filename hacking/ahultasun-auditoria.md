@@ -62,11 +62,11 @@ Zerbitzu korporatibo ugari aktibo zituen Windows sistema bat detektatu dugu. Ez 
 
 DFS zerbitzua, zaurgarririk ez.
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Linux zerbitzaria, oso portu gutxi ditu zabalik
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 192.168.1.109 host-ak eraso-azalera oso handia du. Eta zerbitzu asko ez daude seguru edo ez daude eguneratuta. Makina metasploitagarri2 bezala identifikatzen da, eta auditoriaren helburu nagusia bezala erabiliko dugu.
 

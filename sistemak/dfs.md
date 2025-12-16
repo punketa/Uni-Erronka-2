@@ -14,7 +14,7 @@ Lehenik partizioak sortu ditugu:
 
 <figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Karpetak sortu ditugu:
 
@@ -66,7 +66,7 @@ Karpetak partekatu ditugu:
 
 <figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Primero PAYOTANO:
 

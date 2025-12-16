@@ -279,7 +279,7 @@ jQuery(document).ready(function ($) {
 });
 ```
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Bigarren plugina:
 
@@ -527,4 +527,4 @@ jQuery(document).ready(function ($) {
     cargarGrafico();
 ```
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>

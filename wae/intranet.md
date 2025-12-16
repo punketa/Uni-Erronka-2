@@ -60,27 +60,27 @@ Pasahitz enkriptatuak erabiltzen dira:
 
 -Hau erregistratzerakoan:
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 -Hau login egiterakoan:
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Datu basean horrela ikusten da:
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Login-ari persistentzia ematen zaio
 
 Hau egiteko lehenik saioa hasi dugu, loginen php barruan:
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Artxibo berdinean saioa sortu dugu:
 
 Hemen pasahitza sartzearekin batera sartu dugu horrela ziurtatzen dugu erabiltzailea datu zuzenak sartzen dutenean sortuko dela saioa.
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Register php-an ez da saioa ez ezer behar.
 

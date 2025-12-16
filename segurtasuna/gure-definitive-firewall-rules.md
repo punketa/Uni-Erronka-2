@@ -193,11 +193,11 @@ Lehenik aipatu behar da, perimetro-segurtasuna pfSense1 eremuan zentralizatzen d
 
 ALIAS bat sortu dugu arinago egiteko: (lehen pfsensean ez dugu erabili por q no sabiamos)
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Arauak:
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 GITANO LAN
 
@@ -225,7 +225,7 @@ GITANO LAN
 -pings a cada servidor y pcs del 71.0 no debe hacer
 
 \
-![](<../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
 
 -mirar pfsense, intranet, wordpres, jitsi, dfs etc (deberia entrar a todo menos pfsense)
 

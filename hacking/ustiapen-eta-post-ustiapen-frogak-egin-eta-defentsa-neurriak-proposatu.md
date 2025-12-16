@@ -22,7 +22,7 @@ Fase honek erakusten du ahultasunak benetako arriskua duen ala ez.
 
 Bertsioa konprobatu:
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Zaurgarritasun publikoen datu-basea kontsultatzen dugu:
 
@@ -32,11 +32,11 @@ Baieztatzen da FTP zerbitzuaren bertsioa ez dagoela eguneratuta (vsftpd 2.3.4).
 
 mfsconsole
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Exploit-a kargatzen dugu:
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Exploit-a exekutatzen dugu:
 
@@ -84,7 +84,7 @@ Web orrian gure flag-a jartzen dugu:
 
 <figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ondorioa:
 
@@ -142,7 +142,7 @@ Ondorioa: Defetuzko kredentzialak (msfadmin/msfadmin) erabiliz sartu gara Telnet
 
 Bertsioa konprobatu:
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Zaurgarritasun publikoen datu-basea kontsultatzen dugu:
 
