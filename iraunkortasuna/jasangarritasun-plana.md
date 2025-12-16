@@ -1,85 +1,230 @@
-# Iraunkortasun-plana
+# Jasangarritasun-plana
 
-Iraunkortasun Plana - Uni Payo&#x20;
+## IRAUNKORTASUN PLANA
 
-Laburpena: Ingurumen-inpaktua eta gastuak murriztea, ikasleen artean kontzientzia sortuz eta neurri errazak txertatuz ikastetxe txiki batean.&#x20;
+Helburua da ingurumen, gizarte eta ekonomia ikuspegiak modu orekatuan integratzea, 2030 Agendarekin eta nazioarteko estandar nagusiekin bat eginez, neurri errealista, aplikagarri eta eguneratuekin.
 
-Helburuak (SMART)&#x20;
+***
 
-\- 6 hilabetetan ordenagailu zaharren %80 berrerabili, hondakin elektroniko bihurtzea saihesteko. - Urte batean energia-kontsumoa %10-20 murriztea (ekipoak itzali, energia aurrezteko neurriak eta LED argiak erabiliz).&#x20;
+### 1. IRAUNKORTASUN HIRU ARDATZAK
 
-\- Inprimatutako paperaren erabilera %30 gutxitzea 6 hilabetetan digitalizazioa sustatuz.&#x20;
+Jasangarritasuna normalean hiru ardatz nagusiren arabera aztertzen da, eta proiektu teknologikoetan hirurak batera kontuan hartu behar dira:
 
-Ekintza nagusiak&#x20;
+1. Ingurumen‑ardatza → baliabide naturalen kontsumoa gutxitzea, energia‑eraginkortasuna hobetzea eta CO₂ isurpenak murriztea.
+2. Ardatz soziala → pertsonen ongizatea, segurtasuna, irisgarritasuna eta berdintasuna bermatzea.
+3. Ardatz ekonomikoa → baliabideen erabilera eraginkorra, kostuen kontrola eta inbertsioen justifikazioa.
 
-1\. Teknologia eta ordenagailuak (ideia nagusia)&#x20;
+Hiru ardatz horiek orekatuta aplikatzen direnean, emaitzak iraunkorragoak, eraginkorragoak eta epe luzekoak izaten dira.
 
-\- Inbentarioa eta egoeraren azterketa egitea.&#x20;
+***
 
-\- Datuen garbiketa eta segurtasun kopiak sortzea.&#x20;
+### 2. INGURUMEN‑ARDATZA
 
-\- Berrerabilpena: beharrezkoa bada RAM/SSD gehitu, eta sistema arin bat instalatu (adib. Linux arina).&#x20;
+#### 2.1 Energia‑kontsumoaren optimizazioa
 
-\- Hezkuntza-erabilera: talde-lanetarako edo informazioaren kontsultarako guneak. - Konpondu ezin direnak, baimendutako birziklapen gunera bidali.&#x20;
+* Energy Star edo ISO 50001 bezalako estandarrak betetzen dituzten ekipoak erabiltzea.
+* Hodei‑zerbitzu eraginkorrak lehenestea (AWS Graviton, Google Carbon Aware Scheduler, Azure Green Regions).
+* Ordenagailuen energia‑kudeaketa automatizatzea: pantailaren itzaltzea, suspentsioa eta diskoen optimizazioa.
+* Sare‑ekipo eraginkorragoak erabiltzea (PoE kontrolatua, VLAN optimizazioa, banda‑zabalera egokitutako azpiegiturak).
 
-2\. Energia&#x20;
+#### 2.2 Baliabideen erabilera arduratsua
 
-\- Egunaren amaieran gailuak eta inprimagailuak itzali.&#x20;
+* Digital First estrategia: dokumentuen digitalizazioa eta paper‑kontsumoa %70 arte murriztea.
+* Hardwarearen bizi‑zikloa luzatzea: konponketa, berrerabilpena eta birmanufaktura.
+* Fabrikatzaile jasangarriak lehenestea (Fairphone, Framework, Dell Circular Economy).
 
-\- Inaktibitatean 10-15 minuturen buruan lo modua aktibatu.&#x20;
+#### 2.3 Ekipoen bizi‑zikloaren ingurumen‑aztarna
 
-\- Bonbillak LEDengatik ordezkatu, eta denboragailuak/sentsoreak jarri eremu gutxi erabilietan.&#x20;
+* Smartphone arrunt bat: 50–120 kg CO₂ fabrikazioan.
+* PC eramangarri bat: 200–400 kg CO₂.
+* Mahaigaineko PC + pantaila: 600–900 kg CO₂.
+* Zerbitzari fisiko bat: 1.100–2.000 kg CO₂/urte (energia‑iturriaren arabera).
 
-3\. Hondakinak eta materialak&#x20;
+#### 2.4 Hondakin elektronikoa (E‑WASTE)
 
-\- Barneko birziklapen gunea (papera, kartoia, pilak).&#x20;
+* 2024an munduan sortutakoa: 62 Mt; 2030erako aurreikuspena: 82 Mt.
+* %17 bakarrik birziklatzen da behar bezala.
+* Arrisku nagusiak: beruna, merkurioa, kadmioa eta litiozko bateriak.
+* Europako araudia: WEEE Directive.
 
-\- Paperaren atzealdea berrerabili zirriborroetarako.&#x20;
+#### 2.5 Karbono‑aztarna murriztea
 
-\- Erosketak ontziratu gabe eta material birziklatuekin egin.&#x20;
+* Energia berriztagarria kontratatzea.
+* Telelana eta bideokonferentziak lehenestea → langileko 400–800 kg CO₂/urte aurrezpena.
+* LED argiak erabiltzea → %75 energia‑aurrezpena.
 
-4\. Mugikortasuna eta ura&#x20;
+***
 
-\- Ikasle eta familien artean oinez edo bizikletaz joatea sustatu; "auto gabeko eguna" hilabetero. - Ihesak berrikusi eta uraren erabilera arduratsua bultzatu.&#x20;
+### 3. ARDATZ SOZIALA
 
-5\. Hezkuntza eta parte-hartzea&#x20;
+#### 3.1 Lan‑ingurune segurua eta osasuntsua
 
-\- "Batzorde Berdea" sortu (2 irakasle + 2 ikasle), ekintzak dokumentatzeko.&#x20;
+* Ergonomia egokia: pantailen altuera, teklatu eta sagu ergonomikoak.
+* Atseden aktiboak: 5 minutuko atsedenak orduro.
+* Zarata‑kontrola (<50 dB).
 
-\- Mini-proiektuak: "birziklatu eta konpondu" tailerra, urteroko jarduera teknologikoa, eta kartel informatiboak.
+#### 3.2 Irisgarritasuna eta berdintasuna
 
-Adierazleak&#x20;
+* WCAG 2.1 estandarrak betetzen dituzten aplikazioak.
+* Kontraste altua, testuaren tamaina handitzeko aukera eta irakurle automatikoekin bateragarritasuna.
 
-\- Berrerabilitako ordenagailu kopurua / guztira (%80 helburua).&#x20;
+#### 3.3 Ongizate digitala
 
-\- Hilabeteko kWh aurrezpena (lehen/ondoren konparatuz).&#x20;
+* Pantailaren aurrean emandako denboraren kontrola.
+* Burnout digitalaren prebentzioa.
+* Online arriskuei buruzko prestakuntza.
 
-\- Hilabeteko inprimaketa kopurua.&#x20;
+#### 3.4 Prestakuntza jarraitua
 
-\- Egindako jarduera eta parte-hartzaile kopurua.&#x20;
+* Zibersegurtasuna (ISO 27001, ENS, CEH).
+* Cloud teknologiak (AWS, Azure, Google Cloud).
+* IA, automatizazioa eta jasangarritasun digitala.
 
-Kronograma (teorikoa)&#x20;
+#### 3.5 Gizarte‑inpaktua
 
-\- 1. hilabetea: Diagnostikoa + batzordea + lehentasunak.&#x20;
+* Hardware berrerabiltzeko programak (eskolak, elkarteak).
+* Gizarte‑erakundeekin lankidetza digitalak.
 
-\- 2-4. hilabeteak: Ordenagailuen konponketa eta instalazioa ikasgela batean. - 5-8. hilabeteak: Neurriak zabaltzea gainerako gelara eta energia-aurrezpena. - 9-12. hilabeteak: Jarraipena, emaitzak eta azken txostena.&#x20;
+***
 
-Arduradunak eta baliabideak&#x20;
+### 4. ARDATZ EKONOMIKOA
 
-\- Zuzendaria: baimena eta komunikazioa familiei.&#x20;
+#### 4.1 Kostuen kudeaketa eraginkorra
 
-\- TIC irakaslea: ordenagailuen inbentarioa eta berrerabilpena.&#x20;
+* Life Cycle Costing (LCC) ikuspegia.
+* SaaS eredua → gastu aurreikusgarriagoak.
+* Hodei hibridoak → %20–40 kostu‑murrizketa.
 
-\- Batzorde Berdea: jarraipena eta sentsibilizazioa.&#x20;
+#### 4.2 Inbertsioen justifikazioa
 
-\- Aurrekontua: oso baxua; gastu nagusia: pieza txikiak (RAM/SSD). Dohaintzak edo lankidetza bilatu daitezke.&#x20;
+* ROI eta TCO kalkuluak.
+* Energia‑eraginkortasuneko inbertsioen errentagarritasuna.
 
-Arriskuak eta neurriak&#x20;
+#### 4.3 Mantentze prebentiboa
 
-\- Datuen pribatutasuna: beti garbiketa segurua egin aurretik.&#x20;
+* Ekipo bat konpontzea berria erostea baino 4–10 aldiz jasangarriagoa.
+* Hardwarearen bigarren bizitza sustatzea.
 
-\- Hutsegite teknikoak: birziklapen zerbitzu baimendua prest izan.&#x20;
+#### 4.4 Lehiakortasuna
 
-\- Motibazio falta: jarduera praktiko eta ikusgarriekin motibatu.
+* Jasangarritasun politikek puntu gehiago ematen dituzte kontratu publikoetan.
+* Energia‑aurrezpenak milaka euroko aurrezkia ekar dezake urtean.
+
+***
+
+### 5. 2030 AGENDA – GJH LOTURA
+
+#### GJH 9 – Industria, berrikuntza eta azpiegiturak
+
+* Azpiegitura digital sendoak eta modularrak.
+* 5G eta zuntzaren erabilera → %30 energia‑eraginkortasun gehiago.
+
+#### GJH 12 – Kontsumo eta ekoizpen arduratsua
+
+* Berrerabilpena, birziklapena eta birmanufaktura.
+* Right to Repair edo Konpontzeko Eskubidea.
+
+#### GJH 13 – Klima‑aldaketa
+
+* CO₂ isurpenen neurketa (GHG Protocol, Carbon Trust).
+* Karbono‑neutraltasunerako planak.
+
+***
+
+### 6. EKIPOEN BIZI‑ZIKLOA
+
+1. Ekoizpena: metal arraroen erauzketa, emisioen %70–90.
+2. Garraioa: Asiako fabriketatik Europara → 20–40 kg CO₂/unitate.
+3. Erabilera: ekipo zaharrek %50 gehiago kontsumi dezakete.
+4. Amaiera: birziklapen egokiak material baliotsuak berreskuratzen ditu.
+
+***
+
+### 7. ONDORIOAK
+
+Informatikako jasangarritasun plan egoki batek:
+
+* CO₂ isurpenak murrizten ditu.
+* Kostu ekonomikoak optimizatzen ditu.
+* Enpresen lehiakortasuna handitzen du.
+* Langileen ongizatea eta irisgarritasuna bermatzen ditu.
+* Ingurumenaren eta gizartearen etorkizuna babesten du.
+
+Ikuspegi integratu honekin, erakundeek IKT sektorean eredu jasangarri, arduratsu eta berritzailea garatu dezakete.
 
 \
+\
+\
+\
+\
+\
+<br>
+
+(Resumen)
+
+IRAUNKORTASUN PLANA
+
+<br>
+
+#### IRAUNKORTASUN hiru alderdiak
+
+Jasangarritasuna normalean hiru ardatzen arabera aztertzen da: ingurumenekoa, soziala eta ekonomikoa. Informatikako proiektuetan ere hirurak hartzen dira kontuan.\
+<br>
+
+#### Ingurumen-alderdia:
+
+* Ekipoen energia-kontsumoa optimizatzea (Energy Star dispositiboak, hodeiko zerbitzu eraginkorragoak…).
+* Baliabideen erabilera arduratsua: papera gutxitzea, hardwarearen bizi-zikloa luzatzea eta hondakin elektronikoak gutxitzea.
+
+#### Alderdi soziala:
+
+* Lan-ingurune segurua eta osasuntsua bermatzea.
+* Teknologia irisgarria eta bidezkoa izatea, pertsonek diskriminaziorik gabe erabil dezaten.
+* Langileen prestakuntza jarraituan inbertitzea langileek gaitasun berriak etengabe ikasten eta garatzen jarrai dezaten.
+
+<br>
+
+#### Alderdi ekonomikoa:
+
+* Baliabide teknologikoak modu efizientean erabiltzea, gastuak kontrolatuz eta inbertsioak justifikatuz.
+* Azpiegitura digitalen mantentze-kostuak optimizatzea eta iraupena luzatzea.
+
+Proiektu teknologikoetan hiru ikuspegi horiek orekatzen direnean emaitzak iraunkorragoak eta eraginkorragoak izaten dira.
+
+<br>
+
+2030 Agenda GJH (Garapen Jasangarrirako Helburuak)
+
+Agenda 2030 Nazio Batuen Erakundeak 2015ean onartutako planetako herrialde guztiek partekatzen duten jardun-ildo globala da. Bere baitan daude 17 Garapen Jasangarriko Helburu (GJH), eta haien helburua 2030. urterako planeta eta gizartea modu iraunkorrago, bidezkoago eta osasuntsuago batean antolatzea da.
+
+#### GJH 9 – Industria eta berrikuntza: <br>
+
+Azpiegitura teknologikoen mantentze egokia eta berrerabilera lortu.\
+<br>
+
+1. GJH 12 – Kontsumo eta ekoizpen arduratsua:\
+   <br>
+
+Materialen erabilera optimizatzea eta hondakin elektronikoak gutxitzea aipatzen dut.\
+<br>
+
+2. GJH 13 – Klima-aldaketa:\
+   <br>
+3. Energia-kontsumoa murrizteko neurriak eta karbono-aztarna gutxitzeko praktikak azaltzen ditut.
+4. Karbono-aztarna txikitzeko praktika errealak ipintzen ditut, adibidez LED argiak erabiltzea edo teleportuko bilerak lehenestea autoz mugitu beharrean.
+
+<br>
+
+EKIPOEN KOMPONENTE DESBERDINETAKO KUTSADURA AZTARNA
+
+Bizi-zikloaren fase bakoitzean sortzen den kutsadura azaltzen dut:
+
+* Ekoizpena: metal arraroen erauzketa (koltan, kobrea…), CO₂ emisio handiak.
+* Garraioa: fabrikatik Europako enpresetara heldu arte duen aztarna.
+* Erabilera: energia-kontsumoa, batez ere ekipo zaharretan.
+* Amaiera: baterietan dauden substantzia toxikoak (beruna, litioa, merkurioa).
+
+Adibide erreala jartzen dut:
+
+* Smartphone batek batez beste 70 kg CO₂ sortzen ditu fabrikatzean.
+* PC eramangarri batek 200–350 kg CO₂ artean.
