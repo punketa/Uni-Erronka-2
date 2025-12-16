@@ -167,4 +167,4 @@ sudo systemctl restart apache2
 
 <figure><img src="../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
 
--Ordenagailuak gehitzeko:<br>
+-Ordenagailuak gehitzeko eskuz jarri ditugu. Glpi plugina inbentarioa egiteko ez zelako "bateragarri" gure glpi-aren bertsioarekin.<br>
