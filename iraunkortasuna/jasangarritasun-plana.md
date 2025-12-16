@@ -1,4 +1,4 @@
-# Jasangarritasun-plana
+# Iraunkortasun-plana
 
 ## IRAUNKORTASUN PLANA
 
@@ -215,7 +215,7 @@ Materialen erabilera optimizatzea eta hondakin elektronikoak gutxitzea aipatzen 
 
 <br>
 
-EKIPOEN KOMPONENTE DESBERDINETAKO KUTSADURA AZTARNA
+EKIPOEN KOMPONENTE DESBERDINETAKO KUTSADURA AZTARNA EKOLOGIKOA
 
 Bizi-zikloaren fase bakoitzean sortzen den kutsadura azaltzen dut:
 

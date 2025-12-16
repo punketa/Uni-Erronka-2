@@ -43,7 +43,7 @@
   * [WS SG](sistemak/ws-sg.md)
   * [Antibirus automatizatua](sistemak/antibirus-automatizatua.md)
 * [Iraunkortasuna](iraunkortasuna/README.md)
-  * [Jasangarritasun-plana](iraunkortasuna/jasangarritasun-plana.md)
+  * [Iraunkortasun-plana](iraunkortasuna/jasangarritasun-plana.md)
 * [Sistema Banatuak](sistemabanatuak/README.md)
   * [Proxmox](sistemabanatuak/proxmox.md)
 * [Hacking](hacking/README.md)
