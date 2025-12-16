@@ -93,4 +93,5 @@ Eta hemen ikusiko dira guztiak
 
 <figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
-Eta horain usuario haiek ezabatzeko beste skript bat jarriko dugu
+
+
