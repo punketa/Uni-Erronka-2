@@ -29,6 +29,8 @@
   * [PF SENSE](segurtasuna/pf-sense.md)
   * [VPN](segurtasuna/vpn.md)
   * [Gure definitive firewall Rules 😎](segurtasuna/gure-definitive-firewall-rules.md)
+  * [IDS Alertak](segurtasuna/ids-alertak.md)
+  * [HTTPS](segurtasuna/https.md)
   * [HoneyPot](segurtasuna/honeypot.md)
   * [Kontingentzia-plana](segurtasuna/kontingentzia-plana.md)
   * [DBLO](segurtasuna/dblo.md)

@@ -167,4 +167,4 @@ sudo systemctl restart apache2
 
 <figure><img src="../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
 
--Ordenagailuak gehitzeko:
+-Ordenagailuak gehitzeko:<br>
