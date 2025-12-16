@@ -20,3 +20,9 @@ Linuxetik Windowsera:
 
 Linuxetik Linuxera:
 
+
+
+
+
+SSH:
+
