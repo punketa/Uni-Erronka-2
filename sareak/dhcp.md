@@ -8,7 +8,7 @@ Konfigurazioa:
 
 DHCP bakarrik bezeroentzako, DMZ eta ZERB sareetan zerbitzuak daude eta haientzako onena ip estatikoak izatea da:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 PFsense:
 

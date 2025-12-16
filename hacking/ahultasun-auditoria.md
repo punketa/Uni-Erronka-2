@@ -40,7 +40,7 @@ Kali Linuxetik sarearen eskaneazio osoa, zerbitzu eta portu irekiak identifikatz
 
 <figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="546"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="546"><figcaption></figcaption></figure>
 
 
 

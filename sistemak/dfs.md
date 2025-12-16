@@ -138,7 +138,7 @@ Karpetak sortu barruan eta beraien helbideak ezarri:
 
 Horrela ikusten da:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Baimenen froga batzuk:
 

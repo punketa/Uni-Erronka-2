@@ -40,18 +40,18 @@ Firewall-a kendu behar dugu zerbitzaritik eta bezerotik, gero probatu egingo dug
 
 Bezerotik zerbitzarira
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 Zerbitzaritik bezerora
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Gero habilitatuko beharko dugu "escritorio remoto" bietan eta bezeroan agregatu beharko dugu usuarioa
 
 Orain zerbitzarian jartzen dugu bezeroaren ip-a eta funtzionatuko du
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Eta sesioa itxiko digu bezeroan
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>

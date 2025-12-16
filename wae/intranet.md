@@ -44,7 +44,7 @@ Sartzerakoan https://intranet.payo.eus login orrialdera bidaltzen gaitu:
 
 Logeatzeroakoan ongietorri orrira bidaltzen gaitu:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Erabiltzaile berrien erregistroa funtzionaltasuna dauka:
 
