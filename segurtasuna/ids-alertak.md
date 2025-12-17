@@ -34,7 +34,7 @@ alert tcp 192.168.3.0/24 any -> any 22 (msg:"\[ALERTA] Cliente LAN intentando co
 
 Internetetik hartutako arauak deskargatu:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
