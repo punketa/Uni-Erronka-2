@@ -26,6 +26,12 @@ GRANT ikasleak TO 'igor'@'%';
 
 
 
+GRANT SELECT\
+ON arduino\_db.\*\
+TO irakasleak;
+
+
+
 SET DEFAULT ROLE irakasleak FOR 'adrian'@'%';
 
 SET DEFAULT ROLE irakasleak FOR 'diego'@'%';
